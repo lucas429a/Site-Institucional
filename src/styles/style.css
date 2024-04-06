@@ -1,0 +1,347 @@
+/* ------------------------------- Coloque sua estilização aqui ------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+.Nav__container{
+    display: flex;
+    background-color: var(--grey-color-1);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 236px;
+    gap: 771px;
+    height: 100px;
+    position: fixed;
+}
+.Nav__title{
+    display: flex;
+    flex-direction: row;
+    color: #F8F9FA;
+    height: 20px;
+    width: max-content;
+    left: 236px;
+    top: 39px;
+    border-radius: 0px;
+    font-size: var(--Font-weight-6);
+}
+.Nav__button{
+    display: flex;
+    flex-direction: row;
+    color: var(--grey-color-6);
+    width: 200px;
+    padding: 5px;
+    border: 1px solid var(--grey-color-6);
+    background-color: var(--grey-color-1);
+    font-weight: var(--Font-weight-1);
+    box-sizing: border-box;
+}
+.header__container{
+    height: 781px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 260px,232px;
+    gap: 44px;
+    background-color: var(--grey-color-2);
+}
+.header__title{
+    height: 73px;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: var(--Font-weight-1);
+    font-size: var(--Font-Size-1);
+    line-height: var(--Line-Height-1);
+    text-align: center;
+    padding-top: 250px;
+    color: #EDF2FF;
+}
+.Span__1{
+    color: var(--brand-color-1);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Header__text{
+    width: 770px;
+    height: 60px;
+    font-style: normal;
+    font-weight:var(--Font-weight-2);
+    font-size: var(--Font-Size-5);
+    line-height:var(--Line-Height-4);
+    text-align: center;
+    color: var(--grey-color-4);
+    padding-top: 29px;
+    padding-bottom: 80px;
+}
+.Span__2{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 32px;
+    width: 133px;
+    height: 60px;
+    background-color: var(--brand-color-1);
+    border: 1px solid #4C6EF5;
+    color: var(--grey-color-4);  
+}
+.Section__2-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 82px,236px;
+    gap: 336px;
+    height: 284px;
+    background-color: var(--grey-color-1);
+}
+.Section__2--title{
+    width: 285px;
+    height: 45px;
+    padding-left: 236px;
+    padding-bottom: 120px;
+    color: var(--grey-color-6);
+    font-weight: var(--Font-weight-1);
+    font-size: var(--Font-Size-3);
+    line-height: var(--Line-Height-3);
+}
+.Section__2--text{
+    width: 611px;
+    height: 120px;
+    padding-right: 236px;
+    font-weight: var(--Font-weight-2);
+    font-size: var(--Font-Size-5);
+    line-height: var(--Line-Height-4);
+    padding-bottom: 180px;
+    color: var(--grey-color-5);
+}
+.Section__3-container{
+    height: 1400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 100px , 236px;
+    background-color: var(--grey-color-2);
+}
+.Quest__container{
+    width: 473px;
+    height: 271px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 50px;
+    gap: 33px;
+}
+.Section__3-Quest{
+    width: 379px;
+    height: 5px;
+    font-weight: var(--Font-weight-1);
+    font-size: var(--Font-Size-2);
+    line-height: var(--Line-Height-2);
+    color: var(--grey-color-6)
+}
+.Section__3-Text{
+    width: 473px;
+    height: 50px;
+    padding-top: 33px;
+    font-weight: var(--Font-weight-2);
+    font-size: var(--Font-Size-6);
+    line-height: var(--Line-Height-5);
+    color: var(--grey-color-4);
+}
+.Section__3-Span{
+    box-sizing: border-box;
+    width: 241px;
+    height: 60px;
+    padding: 0px,32px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: var(--grey-color-4);
+    font-weight: var(--Font-weight-1);
+    font-size: var(--Font-Size-6);
+    line-height: var(--Line-Height-5);
+}
+.Section__asside--container{
+    width: 614px;
+    height: 968px;
+    padding-left: 163px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.Section__asside--titles{
+    font-style: normal;
+    font-size: var(--Font-Size-4);
+    font-weight: var(--Font-weight-1);
+    line-height: var(--Line-Height-3);
+    color: var(--grey-color-6);
+    text-align: center;
+}
+.Section__asside--text{
+    font-weight: var(--Font-weight-2);
+    font-size: var(--Font-Size-5);
+    line-height: var(--Line-Height-4);
+    color: var(--grey-color-4);
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.Section__4--container{
+    height: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+    background-color: var(--grey-color-2);
+}
+.Section__4-listContainer{
+    padding-left: 50px;
+}
+.Section__4-List-Itens{
+    display: flex;
+    flex-direction: column;
+}
+.Section__4-Cards{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-bottom: 50px;
+}
+.Section__4-name{
+    width: 200px;
+    font-weight: var(--Font-weight-1);
+    font-size: var(--Font-Size-4);
+    line-height: var(--Line-Height-3);
+    color: var(--grey-color-6);
+}
+.Section__4-class-year{
+    font-weight: var(--Font-weight-2);
+    font-size: var(--Font-Size-6);
+    line-height: var(--Line-Height-5);
+    color: var(--grey-color-4);
+    gap: 10px;
+}
+.Section__4-description{
+    width: 400px;
+    margin-left: 50px;
+    height: 200px;
+    font-weight: var(--Font-weight-2);
+    font-size: var(--Font-Size-6);
+    line-height: var(--Line-Height-5);
+    color: var(--grey-color-4);
+}
+.Section__4-asside-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--brand-color-1);
+    width: 450px;
+    height: 500px;
+    margin-right: 80px;
+}
+.Section__4-card-title{
+    font-weight: var(--Font-weight-1);
+    font-size: var(--Font-Size-3);
+    line-height: var(--Line-Height-3);
+    color: var(--grey-color-6);
+    padding-left: 75px;
+    padding-top: 75px;
+}
+.Section__4-card-text{
+    width: 300px;
+    height: 100px;
+    margin-top: 55px;
+    font-weight: var(--Font-weight-2);
+    font-size: var(--Font-Size-6);
+    line-height: var(--Line-Height-5);
+    color: var(--grey-color-6);
+}
+.Footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--grey-color-1);
+    height: 100px;
+}
+.Footer__title{
+    display: flex;
+    justify-content: center;
+    font-weight: var(--Font-weight-2);
+    font-size: var(--Font-Size-6);
+    line-height: var(--Line-Height-5);
+    color: var(--grey-color-6);
+}
+.ModalContainer{
+    width: 500px;
+    height: 397px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--grey-color-2);
+    border-radius: 4px;
+    border: 2px solid #4C6EF5;
+}
+.Dialog_title{
+    font-size: var(--Font-Size-3);
+    font-weight: var(--Font-weight-1);
+    line-height: var(--Line-Height-4);
+    align-items: center;
+    color: var(--grey-color-6);
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.Dialog__text{
+    width: 350px;
+    margin-top: 30px;
+    margin-left: 75px;
+    font-size: var(--Font-Size-6);
+    font-weight: var(--Font-weight-2);
+    line-height: var(--Line-Height-5);
+    color: var(--grey-color-4);
+}
+.Diaolg__input{
+    width: 80%;
+    height: 50px;
+    background-color: var(--grey-color-1);
+    margin-top: 20px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 50px;
+}
+.Dialog__button{
+    width: 80%;
+    height: 50px;
+    background-color: var(--brand-color-1);
+    margin-top: 20px;
+    font-size: var(--Font-Size-6);
+    font-weight: var(--Font-weight-2);
+    line-height: var(--Line-Height-5);
+    color: var(--grey-color-6);
+    margin-left: 50px;
+    
+}
+.Modal__header{
+    display: flex;
+    justify-content: space-between;
+}
+.Modal__External{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Button_toClose{
+    background-color: var(--grey-color-3);
+    height: 25px;
+    margin-top: 25px;
+    margin-right: 15px;
+    border: none;
+    color: var(--grey-color-4);
+}

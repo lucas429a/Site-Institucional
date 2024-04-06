@@ -1,0 +1,28 @@
+:root{
+    --brand-color-1:#4C6EF5;
+    --brand-color-2:#364FC7;
+    --grey-color-1:#191C1F;
+    --grey-color-2:#212529;
+    --grey-color-3:#343A40;
+    --grey-color-4:#ADB5BD;
+    --grey-color-5:#CED4DA;
+    --grey-color-6:#EDF2FF;
+
+
+    --Font-weight-1: 600;
+    --Font-weight-2: 400;
+    --Font-weight-3: 500;
+
+    --Font-Size-1: 52px;
+    --Font-Size-2: 40px;
+    --Font-Size-3: 32px;
+    --Font-Size-4: 28px;
+    --Font-Size-5: 20px;
+    --Font-Size-6: 18px;
+
+    --Line-Height-1: 72px;
+    --Line-Height-2: 64px;
+    --Line-Height-3: 44px;
+    --Line-Height-4: 30px;
+    --Line-Height-5: 27px;
+}
